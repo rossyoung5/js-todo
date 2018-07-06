@@ -15,12 +15,15 @@ inputButton.onclick = function() {
         
         // append that to myList
         myList.appendChild(newTask);
+
+        //clear the input when the button's clicked
+        taskInput.value = "";
     } else {
         console.log ("empty");
     }
 };
     
-  //clear the input when the button's clicked
+  
 
 //When a task is clicked, remove/strikethrough from the list
   //alt, make a new 'completed' tasks list
